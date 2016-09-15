@@ -1,0 +1,209 @@
+body {
+  /*background-image: url("./img/background/tumble.gif");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px black;
+}
+
+.nav-bar {
+  opacity: .7;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: white;*/
+  display: flex;
+  justify-content: center;
+}
+
+.home-link-div {
+  width: auto;
+  /*display:table-caption;*/
+
+}
+
+.animals-top {
+  display: flex;
+  justify-content: center;
+}
+.animals-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 4em;
+  background: white;
+  border-radius: 50px;
+
+}
+.icon:hover {
+  background-color: lightblue;
+}
+
+/*.animals-link {
+  display: inline-block;
+  padding-left: 90%;
+}*/
+
+/*.welcome-image {
+  max-width: 50vh;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}*/
+
+a {
+  text-decoration: none;
+  display: list-item;
+}
+
+a .button {
+  width: 30vh;
+}
+
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*height: 100vh;*/
+}
+ul {
+  outline: none;
+}
+
+.ul-links{
+  display: table-caption;
+}
+.button-directions {
+  list-style-type: none;
+
+}
+.button {
+  display: inline-block;
+  border-radius:10px;
+  border: none;
+  /*color: #FFFFFF;*/
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px white;
+  height: 5em;
+  margin: 15px 55px;
+  opacity: .7;
+}
+
+.button:hover {
+  opacity: 1;
+}
+/*bear*/
+.button.button1:hover {
+  background: url("http://imgsplanet.com/pics/main/8/237782-bears.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*bigcat*/
+.button.button2:hover {
+  background: url("https://thejaguarandallies.files.wordpress.com/2015/09/happy-djamila-tambako.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*chicken*/
+.button.button3:hover {
+  background: url("https://a2ua.com/chicken/chicken-011.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*deer*/
+.button.button4:hover {
+  background: url("http://images.havahart.com/is/image/woodstream/hh-animals-deer-4?$ProductPgLarge2$");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*dog*/
+.button.button5:hover {
+  background: url("http://cdn0.lostateminor.com/wp-content/uploads/2015/08/Shiba-Inu-stuck-in-a-hedge-show-us-the-importance-of-staying-positive11.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/*panda*/
+.button.button6:hover {
+  background: url("https://i.ytimg.com/vi/b6dT4kyVUuY/maxresdefault.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.animal-title{
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: #FCFFE5;
+  font-size: 3em;
+}
+
+.animal-info {
+  background: #FCFFE5;
+  /*text-shadow: 1px 1px white;*/
+  width: 80vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+/*carousel*/
+.carousel-container {
+  width: 90%;
+  height: 100%;
+  margin: 3em;
+}
+
+.frame{
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}

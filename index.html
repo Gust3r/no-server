@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="animalFarm">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./slick/slick/slick.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./slick/slick/slick-theme.css" media="screen" title="no title">
+    <title>Animal Farm</title>
+  </head>
+  <body ng-controller="homeController">
+
+
+<!-- cow home link icon -->
+  <div class="nav-bar">
+      <!-- <li class="home-link"><a ui-sref="home">Home</a></li> -->
+      <a ui-sref="home"><img src="./img/cow.svg" class="icon"></img></a>
+      <!-- <li class="animals-link"><a ui-sref="animals">Animals</a></li> -->
+  </div>
+
+
+
+<ui-view></ui-view>
+
+
+
+
+
+
+<!-- background video on loop -->
+<div class="fullscreen-bg">
+  <video loop muted autoplay class="fullscreen-bg_video">
+    <source src="./img/background/backgroundmovie.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+<!-- <video-directive></video-directive> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+
+
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script src="./carousel/carousel.js"></script>
+
+
+
+
+
+        <!-- script files -->
+        <!-- <script src="./carousel/carousel.js"></script> -->
+    		<script src="app.js"></script>
+        <script src="./animalsDirective.js"></script>
+        <script src="./videoDirective.js"></script>
+    		<script src="./animals/animalsController.js"></script>
+    		<script src="./home/homeController.js"></script>
+    		<script src="./information/informationController.js"></script>
+    		<script src="./services/animalsServices.js"></script>
+        <script src="./animals/bear/bearController.js"></script>
+        <script src="./animals/bigcat/bigcatController.js"></script>
+        <script src="./animals/chicken/chickenController.js"></script>
+        <script src="./animals/deer/deerController.js"></script>
+        <script src="./animals/dog/dogController.js"></script>
+        <script src="./animals/panda/pandaController.js"></script>
+
+
+        </script>
+  </body>
+</html>
